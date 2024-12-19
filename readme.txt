@@ -1,0 +1,7 @@
+Task 2. Document Classification and Clustering (30 Marks)
+Aspect-Based Sentiment Analysis on Hotel Reviews Using Classification and Clustering Techniques
+This task aims to evaluate your understanding of aspect-based sentiment analysis (ABSA) through classification and clustering methods. We will provide you a labelled dataset of hotel reviews to identify different aspects (e.g., food, room, location, staff) and determine the sentiment associated with each aspect. This task will test your skills in data pre-processing, feature extraction, classification, and clustering.
+Download the labelled hotel review dataset from the following URL: https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
+This dataset includes customer reviews along with tags indicating the sentiment (Positive and Negative).
+First, you have to identify different aspects (e.g., room quality, location, food) using clustering methods such as k-means or hierarchical clustering. Label clusters to identify the predominant aspects within each cluster and evaluate the clustering performance using silhouette score.
+Then train a classification model (e.g., SVM, Logistic Regression, or any neural network model like RNNs or BERT) to predict sentiment for each identified aspect. Evaluate your model using metrics like accuracy, F1 score, precision, and recall. Conduct a brief error analysis to identify common misclassifications and discuss potential improvements.
